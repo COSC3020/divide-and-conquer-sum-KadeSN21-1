@@ -56,7 +56,7 @@ We also know that $T\left(\frac{n}{3^{\log_{3}(n)}}\right) = 1$, and $3^{log_{3}
 $$n * 1 + (log_{3}(n) * n) + O(log_{3}(n)$$
 
 
-We can ignore the lower order term of $n * 1$, as well as O(log_{3}(n))
+We can ignore the lower order term of $n * 1$, as well as $O(log_{3}(n))$
 
 Thus the time colmplexity of this implementation is $\Theta(n log n)$
 
