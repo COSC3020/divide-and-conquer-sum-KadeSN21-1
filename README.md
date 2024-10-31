@@ -49,7 +49,7 @@ $$3^kT\left(\frac{n}{3^k}\right) + (k * n) + O(k)$$
 
 We know that it takes $log_{3}(n)$ reccursions to get to a point where $n/3^k < 1$, so we can denote $k$ as $log_{3}(n)$, giving us:
 
-$$3^{\log_{3}(n)}T\left(\frac{n}{3^{\log_{3}(n)}}\right) + (log_{3}(n) * n) + O(log_{3}(n)$$
+$$3^{\log_{3}(n)}T\left(\frac{n}{3^{\log_{3}(n)}}\right) + (log_{3}(n) * n) + O(log_{3}(n))$$
 
 We also know that $T\left(\frac{n}{3^{\log_{3}(n)}}\right) = 1$, and $3^{log_{3}(n)} = n$ so we can rewrite the relation as such: 
 
